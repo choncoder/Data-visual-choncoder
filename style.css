@@ -76,3 +76,17 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
+
+@media (max-width: 768px){
+    .Dashboard-container{
+      flex-direction: column;
+    }
+    .sidebar{
+      width: 100%;
+      padding: 10px;
+    }
+    .main-content{
+      grid-template-columns: 1fr;
+    }
+
+}
